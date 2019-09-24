@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1569332613157,
+  "timestamp": 1569333336391,
   "index": "/marvel-favourites/index.html",
   "assetGroups": [
     {
@@ -65,7 +65,7 @@
     "/marvel-favourites/index.html": "078a598d5643c16d8a0e6dc5c5f9e2aaefbaab28",
     "/marvel-favourites/main-es2015.8c9b8fd471bd746c9878.js": "69253793dc6972575d516aa248c7cfe2361e05dc",
     "/marvel-favourites/main-es5.8c9b8fd471bd746c9878.js": "daa8cb302656059398a425fcebdb3a6595b7c1b5",
-    "/marvel-favourites/manifest.webmanifest": "99434e4326c105ee8e038fccaca9c41b0b415de9",
+    "/marvel-favourites/manifest.webmanifest": "78a6d178e3c413ae2b7095bd09017593fb3ac57e",
     "/marvel-favourites/polyfills-es2015.0fe6949bc5ff4b784062.js": "e2f28c3743afd2899e140ad831df9675c233c02b",
     "/marvel-favourites/polyfills-es5.a83ac866abc867bfd530.js": "db091f7ef692a1d3add240459a2ea20c81cd6f19",
     "/marvel-favourites/runtime-es2015.85f895af57b038f1e5b4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
