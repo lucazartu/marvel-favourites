@@ -25,7 +25,7 @@ export class MarvelCharacterDetailComponent implements OnInit {
     this.activatedRoute.paramMap.subscribe(params => {
       this.api.getCharacter(+params.get('id')).subscribe(res => {
         this.hero = res.data.results[0];
-        this.thumbnailSrc = `${this.hero.thumbnail.path}.${
+        this.thumbnailSrc = `${this.hero.thumbnail.path.replace('http', 'https')}.${
           this.hero.thumbnail.extension
         }${this.api.getKeyParams()}`;
       });

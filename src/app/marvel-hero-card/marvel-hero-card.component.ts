@@ -21,7 +21,7 @@ export class MarvelHeroCardComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.thumbnailSrc = `${this.hero.thumbnail.path}.${
+    this.thumbnailSrc = `${this.hero.thumbnail.path.replace('http', 'https')}.${
       this.hero.thumbnail.extension
     }${this.api.getKeyParams()}`;
   }
