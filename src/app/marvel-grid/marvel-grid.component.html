@@ -1,0 +1,34 @@
+<div
+  fxLayout="column wrap"
+  fxLayout.lt-sm="column"
+  fxLayoutGap="32px grid"
+  fxLayoutAlign="center"
+>
+  <div
+    fxLayout="row wrap"
+    fxLayout.lt-sm="column"
+    fxLayoutGap="32px grid"
+    fxLayoutAlign="center"
+  >
+    <ng-container *ngFor="let hero of heroes">
+      <app-marvel-hero-card
+        fxFlex="0 1 calc(33.3% - 32px)"
+        fxFlex.lt-md="0 1 calc(50% - 32px)"
+        fxFlex.lt-sm="100%"
+        [hero]="hero"
+      ></app-marvel-hero-card>
+    </ng-container>
+  </div>
+
+  <div
+    fxLayout="row wrap"
+    fxLayout.lt-sm="row"
+    fxLayoutGap="32px"
+    fxLayoutAlign="center"
+  >
+    <button *ngIf="offset" mat-raised-button color="warn" (click)="PreviousPage()">
+      Previous
+    </button>
+    <button *ngIf="heroes" mat-raised-button color="warn" (click)="NextPage()">Next</button>
+  </div>
+</div>

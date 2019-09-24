@@ -1,0 +1,48 @@
+<div
+  fxLayout="row wrap"
+  fxLayout.lt-sm="column"
+  fxLayoutGap="grid"
+  fxLayoutAlign="center"
+>
+  <ng-container *ngIf="hero">
+    <mat-card
+      fxFlex="0 1 calc(33.3% - 32px)"
+      fxFlex.lt-md="0 1 calc(50% - 32px)"
+      fxFlex.lt-sm="100%"
+    >
+      <mat-card-header>
+        <mat-card-title>{{ hero.name }}</mat-card-title>
+        <mat-card-subtitle>{{ hero.id }}</mat-card-subtitle>
+      </mat-card-header>
+
+      <img
+        *ngIf="hero.thumbnail"
+        mat-card-image
+        [src]="thumbnailSrc"
+        alt="Photo of {{ hero.name }}"
+        crossorigin="anonymous"
+      />
+      <mat-card-content>
+        {{ hero.description ? hero.description : 'No Description' }}
+      </mat-card-content>
+      <mat-card-actions>
+        <button
+          *ngIf="!key"
+          mat-raised-button
+          color="warn"
+          (click)="addFavourite()"
+        >
+          Add to my list
+        </button>
+        <button
+          *ngIf="key"
+          mat-raised-button
+          color="warn"
+          (click)="delFavourite()"
+        >
+          Remove From My Favourites
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </ng-container>
+</div>

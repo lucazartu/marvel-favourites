@@ -1,0 +1,14 @@
+<mat-toolbar color="primary">
+  <span>Marvel Heroes Catalog</span>
+  <span class="fill-remaining-space"></span>
+  <span *ngIf="auth.isLoggedIn()">
+    <mat-menu #appMenu="matMenu">
+      <button mat-menu-item [routerLink]="'/home'">Catalogue</button>
+      <button mat-menu-item [routerLink]="'/my-favourites'">My Favourites</button>
+      <button mat-menu-item (click)="auth.SignOut()">Logout</button>
+    </mat-menu>
+    <button mat-icon-button [matMenuTriggerFor]="appMenu">
+      MENU
+    </button>
+  </span>
+</mat-toolbar>

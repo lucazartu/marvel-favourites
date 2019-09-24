@@ -1,0 +1,8 @@
+mat-card {
+  height: 659px;
+}
+
+mat-card img {
+  object-fit: cover; /*this makes de image in src fit to the size of specified below*/
+  height: 60%;
+}
