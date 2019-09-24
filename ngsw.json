@@ -1,23 +1,23 @@
 {
   "configVersion": 1,
-  "timestamp": 1569291169330,
-  "index": "/index.html",
+  "timestamp": 1569291906764,
+  "index": "/marvel-favourites/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/favicon.ico",
-        "/index.html",
-        "/main-es2015.8c9b8fd471bd746c9878.js",
-        "/main-es5.8c9b8fd471bd746c9878.js",
-        "/manifest.webmanifest",
-        "/polyfills-es2015.0fe6949bc5ff4b784062.js",
-        "/polyfills-es5.a83ac866abc867bfd530.js",
-        "/runtime-es2015.85f895af57b038f1e5b4.js",
-        "/runtime-es5.85f895af57b038f1e5b4.js",
-        "/styles.a727cec5fd12394d1a60.css"
+        "/marvel-favourites/favicon.ico",
+        "/marvel-favourites/index.html",
+        "/marvel-favourites/main-es2015.8c9b8fd471bd746c9878.js",
+        "/marvel-favourites/main-es5.8c9b8fd471bd746c9878.js",
+        "/marvel-favourites/manifest.webmanifest",
+        "/marvel-favourites/polyfills-es2015.0fe6949bc5ff4b784062.js",
+        "/marvel-favourites/polyfills-es5.a83ac866abc867bfd530.js",
+        "/marvel-favourites/runtime-es2015.85f895af57b038f1e5b4.js",
+        "/marvel-favourites/runtime-es5.85f895af57b038f1e5b4.js",
+        "/marvel-favourites/styles.a727cec5fd12394d1a60.css"
       ],
       "patterns": []
     },
@@ -26,14 +26,14 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "/assets/icons/icon-128x128.png",
-        "/assets/icons/icon-144x144.png",
-        "/assets/icons/icon-152x152.png",
-        "/assets/icons/icon-192x192.png",
-        "/assets/icons/icon-384x384.png",
-        "/assets/icons/icon-512x512.png",
-        "/assets/icons/icon-72x72.png",
-        "/assets/icons/icon-96x96.png"
+        "/marvel-favourites/assets/icons/icon-128x128.png",
+        "/marvel-favourites/assets/icons/icon-144x144.png",
+        "/marvel-favourites/assets/icons/icon-152x152.png",
+        "/marvel-favourites/assets/icons/icon-192x192.png",
+        "/marvel-favourites/assets/icons/icon-384x384.png",
+        "/marvel-favourites/assets/icons/icon-512x512.png",
+        "/marvel-favourites/assets/icons/icon-72x72.png",
+        "/marvel-favourites/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
@@ -42,8 +42,8 @@
     {
       "name": "api",
       "patterns": [
-        "\\/(?:.+\\/)?characters\\?ts=1&apikey=9aea64cd74efe6fbcc6d63a9d475f6b8&hash=41473458d8717843dbe2187fb16f6639",
-        "\\/(?:.+\\/)?[^/]*\\.jpg\\?ts=1&apikey=9aea64cd74efe6fbcc6d63a9d475f6b8&hash=41473458d8717843dbe2187fb16f6639"
+        "\\/marvel-favourites\\/(?:.+\\/)?characters\\?ts=1&apikey=9aea64cd74efe6fbcc6d63a9d475f6b8&hash=41473458d8717843dbe2187fb16f6639",
+        "\\/marvel-favourites\\/(?:.+\\/)?[^/]*\\.jpg\\?ts=1&apikey=9aea64cd74efe6fbcc6d63a9d475f6b8&hash=41473458d8717843dbe2187fb16f6639"
       ],
       "strategy": "performance",
       "maxSize": 250,
@@ -53,24 +53,24 @@
     }
   ],
   "hashTable": {
-    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "eb8057f321597c9cd1cf5556453c3dc3926e4af1",
-    "/main-es2015.8c9b8fd471bd746c9878.js": "69253793dc6972575d516aa248c7cfe2361e05dc",
-    "/main-es5.8c9b8fd471bd746c9878.js": "daa8cb302656059398a425fcebdb3a6595b7c1b5",
-    "/manifest.webmanifest": "99434e4326c105ee8e038fccaca9c41b0b415de9",
-    "/polyfills-es2015.0fe6949bc5ff4b784062.js": "e2f28c3743afd2899e140ad831df9675c233c02b",
-    "/polyfills-es5.a83ac866abc867bfd530.js": "db091f7ef692a1d3add240459a2ea20c81cd6f19",
-    "/runtime-es2015.85f895af57b038f1e5b4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/runtime-es5.85f895af57b038f1e5b4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/styles.a727cec5fd12394d1a60.css": "4fbc1586fb981dd9d4b168276d2d8e02030c142b"
+    "/marvel-favourites/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/marvel-favourites/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/marvel-favourites/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/marvel-favourites/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/marvel-favourites/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/marvel-favourites/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/marvel-favourites/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/marvel-favourites/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/marvel-favourites/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/marvel-favourites/index.html": "078a598d5643c16d8a0e6dc5c5f9e2aaefbaab28",
+    "/marvel-favourites/main-es2015.8c9b8fd471bd746c9878.js": "69253793dc6972575d516aa248c7cfe2361e05dc",
+    "/marvel-favourites/main-es5.8c9b8fd471bd746c9878.js": "daa8cb302656059398a425fcebdb3a6595b7c1b5",
+    "/marvel-favourites/manifest.webmanifest": "99434e4326c105ee8e038fccaca9c41b0b415de9",
+    "/marvel-favourites/polyfills-es2015.0fe6949bc5ff4b784062.js": "e2f28c3743afd2899e140ad831df9675c233c02b",
+    "/marvel-favourites/polyfills-es5.a83ac866abc867bfd530.js": "db091f7ef692a1d3add240459a2ea20c81cd6f19",
+    "/marvel-favourites/runtime-es2015.85f895af57b038f1e5b4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/marvel-favourites/runtime-es5.85f895af57b038f1e5b4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/marvel-favourites/styles.a727cec5fd12394d1a60.css": "4fbc1586fb981dd9d4b168276d2d8e02030c142b"
   },
   "navigationUrls": [
     {
